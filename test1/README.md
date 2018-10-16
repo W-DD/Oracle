@@ -8,9 +8,11 @@ where d.department_id = e.department_id
 and d.department_name in ('IT'，'Sales')
 GROUP BY department_name;
 ```
-实验结果截图：<br>
+实验结果截图：<br><br>
 ![执行结果图片](./1_1.png)
-
+通过sqldeveloper的优化指导工具进行优化指导得到：<br><br>
+![执行结果图片](./1_3.png)
+![执行结果图片](./1_4.png)
 ----------
 - 查询2
 ```sql
@@ -21,5 +23,8 @@ WHERE d.department_id = e.department_id
 GROUP BY department_name
 HAVING d.department_name in ('IT'，'Sales');
 ```
-实验结果截图：<br>
+实验结果截图：<br><br>
 ![执行结果图片](./1_2.png)
+通过sqldeveloper的优化指导工具进行优化指导得到：<br><br>
+![执行结果图片](./1_5.png)
+![执行结果图片](./1_6.png)
