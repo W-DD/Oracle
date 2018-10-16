@@ -8,6 +8,7 @@ where d.department_id = e.department_id
 and d.department_name in ('IT'，'Sales')
 GROUP BY department_name;
 ```
+实验结果截图：<br>
 ![执行结果图片](./1_1.png)
 
 ----------
@@ -20,4 +21,5 @@ WHERE d.department_id = e.department_id
 GROUP BY department_name
 HAVING d.department_name in ('IT'，'Sales');
 ```
+实验结果截图：<br>
 ![执行结果图片](./1_2.png)
