@@ -1,5 +1,6 @@
 # 实验一
 - 查询1
+<br>
 ![执行结果图片](./1_1.png)
 ```sql
 SELECT d.department_name，count(e.job_id)as "部门总人数"，
@@ -13,6 +14,7 @@ GROUP BY department_name;
 
 ----------
 - 查询2
+<br>
 ![执行结果图片](./1_2.png)
 ```sql
 SELECT d.department_name，count(e.job_id)as "部门总人数"，
