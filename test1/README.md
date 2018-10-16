@@ -1,7 +1,6 @@
 # 实验一
 - 查询1
 ![执行结果图片](./1_1.png)
-<br>
 ```sql
 SELECT d.department_name，count(e.job_id)as "部门总人数"，
 avg(e.salary)as "平均工资"
@@ -15,7 +14,6 @@ GROUP BY department_name;
 ----------
 - 查询2
 ![执行结果图片](./1_2.png)
-<br>
 ```sql
 SELECT d.department_name，count(e.job_id)as "部门总人数"，
 avg(e.salary)as "平均工资"
