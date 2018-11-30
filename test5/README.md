@@ -37,7 +37,7 @@ CONNECT BY PRIOR EMPLOYEE_ID = MANAGER_ID
 ```
 
 ## 实验过程
-- 建包：
+- 建包：<br>
 ![执行结果图片](./1.png)<br>
 - My Pack中的代码：
 ```sql
@@ -50,7 +50,7 @@ END MYPACK;
 ```
 截图：<br>
 ![执行结果图片](./2.png)<br>
-- 创建两个函数Get_SaleAmount和Get_Employees在mypack body中：
+- 创建两个函数Get_SaleAmount和Get_Employees在mypack body中：<br>
 代码如下：<br>
 ```sql
 create or replace PACKAGE BODY MYPACK AS
@@ -84,7 +84,7 @@ END MyPack;
 ```
 截图：<br>
 ![执行结果图片](./3.png)<br>
-- 测试
+- 测试<br>
 1.测试函数Get_SaleAmount():
 ```sql
 select count(*) from orders;
